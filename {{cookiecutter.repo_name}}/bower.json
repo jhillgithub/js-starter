@@ -1,0 +1,32 @@
+{
+  "name": "{{cookiecutter.repo_name}}",
+  "homepage": "http://github.com/{{cookiecutter.username}}/{{cookiecutter.repo_name}}",
+  "version": "{{cookiecutter.version}}",
+  "authors": [
+    "{{cookiecutter.full_name}} <{{cookiecutter.email}}> (http://{{cookiecutter.username}}.github.io)"
+  ],
+  "description": "{{cookiecutter.description}}",
+  "license": "Apache-3.0",
+  "keywords": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "tests",
+    "src",
+    "AUTHORS.md",
+    "CONTRIBUTING.md",
+    "Gruntfile.js",
+    "Makefile",
+    "lib",
+    "package.json"
+  ],
+  "main": [
+    "dist/{{cookiecutter.repo_name}}.js",
+    "dist/{{cookiecutter.repo_name}}.css"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "1.10.0",
+    "mocha": "2.1.0"
+  }
+}
